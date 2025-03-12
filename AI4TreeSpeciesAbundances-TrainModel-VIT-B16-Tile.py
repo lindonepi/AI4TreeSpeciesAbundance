@@ -24,7 +24,9 @@ print("current time:-", ct)
 
 import time
 
-
+# READ THIS 
+# run this script for  VIT image classifier model training 
+#  add your dataset folder path
 
 # Define the dataset and transformations
 transform = transforms.Compose([
