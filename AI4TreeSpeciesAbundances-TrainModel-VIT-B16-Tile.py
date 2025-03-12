@@ -62,8 +62,10 @@ device="cuda:0"
 # LOAD MODEL FROM TORCH HUB OR FROM A PREVIOUS TRAINING
 
 model = models.vit_b_16(pretrained=True)
+# remove commet if you want use VIT-H14 model
+#model = models.vit_h_14(pretrained=True)
 
-#model = torch.load('/tmp/last-VIT-BASE.pth')
+
 
 
 
